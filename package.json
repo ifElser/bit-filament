@@ -2,7 +2,7 @@
   "name": "bit-filament",
   "version": "1.0.0",
   "description": "symmetric active key encryption",
-  "main": "bit-chaos.js",
+  "main": "bit-filament.js",
   "scripts": {
     "test": "echo \"TODO: tests!!!\""
   },
@@ -16,7 +16,7 @@
   "author": "js-coder@mail.ru",
   "license": "SEE LICENSE IN ./MEM",
   "bugs": {
-    "url": "https://github.com/relative-chaos/bit-chaos/issues"
+    "url": "https://github.com/relative-chaos/bit-filament/issues"
   },
   "homepage": "https://relative-chaos.github.io"
 }

@@ -1,0 +1,22 @@
+{
+  "name": "bit-filament",
+  "version": "1.0.0",
+  "description": "symmetric active key encryption",
+  "main": "bit-chaos.js",
+  "scripts": {
+    "test": "echo \"TODO: tests!!!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relative-chaos/bit-filament.git"
+  },
+  "keywords": [
+    "MEM", "relative-chaos", "bit-filament", "cryptogenom"
+  ],
+  "author": "js-coder@mail.ru",
+  "license": "SEE LICENSE IN ./MEM",
+  "bugs": {
+    "url": "https://github.com/relative-chaos/bit-chaos/issues"
+  },
+  "homepage": "https://relative-chaos.github.io"
+}

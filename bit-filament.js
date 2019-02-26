@@ -47,13 +47,13 @@ class BitFilament {
           if( !/\./.test(s) ) {
             if( n < 0 ) {
 
-              /*    0111 0001 */
+                /* 0111 0001 */
               if(       -0x81 < n ) NumberInfo = [Int8Array   , INT_8 ]; else
 
-    /*    0111 0000 0000 0001 */
+           /* 0111 0000 0000 0001 */
               if(     -0x8001 < n ) NumberInfo = [Int16Array  , INT_16]; else
-
-    /*    0111 0000 0000 0001 */
+                
+ /* 0111 0000 0000 0000 0000 0000 0000 0001 */
               if( -0x80000001 < n ) NumberInfo = [Int32Array  , INT_32];
             } else {
               if( n < 0x100       ) NumberInfo = [Uint8Array  , UINT_8 ]; else
